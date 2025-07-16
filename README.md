@@ -1,2 +1,2 @@
 # SCCM-Client
-Client  Related Scripts
+# Removes SCCM Client
