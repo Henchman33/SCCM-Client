@@ -45,7 +45,7 @@ Test-NetConnection -ComputerName "usrnopsccm04.myigt.com" -Port 10123    #Won't 
 # Pinging USRNOPSCCMDA01 - SQL SERVER - DB NAME CM_P01 AND SUSDB
 Test-NetConnection -ComputerName "usrnopsccmda01.myigt.com" -Port 80     #Should be Open
 Test-NetConnection -ComputerName "usrnopsccmda01.myigt.com" -Port 443    #Should be Open
-Test-NetConnection -ComputerName "usrnopsccmda01.myigt.com" -Port 445    #Might/Should be Open
+Test-NetConnection -ComputerName "usrnopsccmda01.myigt.com" -Port 445    #Should be Open
 Test-NetConnection -ComputerName "usrnopsccmda01.myigt.com" -Port 8530   #Won't be Open
 Test-NetConnection -ComputerName "usrnopsccmda01.myigt.com" -Port 8531   #Won't be Open
 Test-NetConnection -ComputerName "usrnopsccmda01.myigt.com" -Port 10123  #Won't be Open
@@ -64,4 +64,5 @@ Test-NetConnection -ComputerName "usrnoppkica01.myigt.com" -Port 636
 Test-NetConnection -ComputerName "USRNOPADDSI01.myigt.com" -Port 389
 Test-NetConnection -ComputerName "USRNOPADDSI01.myigt.com" -Port 636
 Test-NetConnection -ComputerName "USRNOPADDSI01.myigt.com" -Port 3268
+
 Test-NetConnection -ComputerName "USRNOPADDSI01.myigt.com" -Port 3269
